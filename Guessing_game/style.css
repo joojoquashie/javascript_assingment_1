@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0f172a;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 12px;
+    width: 380px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    gap: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #334155;
+    color: white;
+}
+
+.box h3 {
+    font-size: 2rem;
+}
+
+#restartBtn {
+    padding: 14px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #ef4444;
+    color: white;
+    font-weight: 600;
+    transition: .3s;
+}
+
+#restartBtn:hover {
+    box-shadow: 0 0 20px #ef4444;
+}
+
+.game-title {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+
+.game-instruction {
+    font-size: 1rem;
+    color: #94a3b8;
+    margin-bottom: 25px;
+}
+
+.guess-input {
+    width: 80px;
+    height: 2rem;
+    text-align: center;
+    background-color: #334155;
+    border: 2px solid #475569;
+    border-radius: 8px;
+    color: #ffffff;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.guess-input:focus {
+    border-color: #38bdf8;
+}
+
+.action-btn {
+    display: block;
+    width: 70%;
+    padding: 14px;
+    background-color: #38bdf8;
+    color: #0f172a;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.action-btn:hover {
+    background-color: #0ea5e9;
+}
